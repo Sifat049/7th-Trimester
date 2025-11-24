@@ -1,0 +1,35 @@
+
+USE UNIVERCITY;
+
+
+
+ INSERT INTO student VALUES
+(22, 'ABC','ah@gmail.com' ,19, 'CSE 101'), 
+(55,'YZ','bal@gmail.com',24, 'CSE 104'),
+(44,'BC','ah@gmail.com' ,19, 'CSE 101'), 
+(67,'Z','bal@gmail.com',24, 'CSE 104'),
+(87,'BC','ah@gmail.com' ,19, 'CSE 101');
+
+
+
+INSERT INTO course VALUES
+('SE 105',' ',5),
+('CSE 16', 'SPL Lab', 1),
+('CSE 17', 'OOP', 3),
+('CSE 18', 'OOP Lab', 1);
+ 
+ALTER TABLE student ADD COLUMN 
+(
+    others int,
+    address VARCHAR(20)
+    
+    );
+    ALTER TABLE course MODIFY COLUMN credit FLOAT(2,1); #ALTER TABLE <table_name> MODIFY COLUMN <column_name> <new_dataype>;
+
+    
+    ALTER TABLE course DROP COLUMN credit;  #DROP (DELETE) A COLUMN
+
+    
+ ALTER TABLE course RENAME stu_courses; #RENAME A TABLE 
+ 
+ALTER TABLE student CHANGE COLUMN   AGE DOB FLOAT(2,1);# CHANGE A COLUMN NAME & TYPE
