@@ -9,7 +9,7 @@
 
 
 **ECONOMICS**
-### ⭐ [Click here to open the Drive folder](https://github.com/Sifat049/7th-Trimester/tree/main/ECONOMICS)
+### ⭐ [Click here to open ECONOMICS](https://github.com/Sifat049/7th-Trimester/tree/main/ECONOMICS)
 
 
 **COMPUTER ARCHITECHER**
