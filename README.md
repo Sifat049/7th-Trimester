@@ -1,7 +1,7 @@
 # 7th-Trimester
 
 **DBMS THEORY***
-### ⭐ [Click here to open DBMS](https://drive.google.com/drive/folders/1LqbfPo2YJ7_-w84VUdKEpklak8XbAEjF?usp=drive_link)
+### ⭐ [Click here to open DBMS](https://drive.google.com/drive/folders/1UGYYdoyA-AdH75h27ks02ixRL-5HTXJa)
 
 
 **DBMS LAB***
