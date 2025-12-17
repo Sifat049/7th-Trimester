@@ -81,11 +81,39 @@ FROM teaches  AS t1
        instructor AS t2
        ON t1.ID =t2.ID
        WHERE t2.name='Srinivasan';
-       
+  /*     
        #16
-       
-     
+       SELECT *
+        FROM time_slot
+        WHERE start_time >= '10:00:00';
 
+*/
+#17
+SELECT i.name
+FROM advisor AS a 
+      JOIN 
+      instructor AS i 
+      ON i.ID=a.i_id
+      
+WHERE a.s_id=12345;
+
+#18
+SELECT * 
+FROM department
+WHERE building='Taylor';
+
+#19
+SELECT student.name AS student, instructor.name AS advisor
+FROM advisor
+JOIN student 
+ON advisor.s_ID=student.ID
+JOIN instructor
+ON advisor.i_ID=instructor.ID;
+
+#20
+SELECT budget
+FROM department AS d
+WHERE d.dept_name='Finance';
 
 #SORTING
 SELECT name,ID,tot_cred
