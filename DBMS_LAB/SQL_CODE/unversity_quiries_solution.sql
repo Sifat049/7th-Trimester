@@ -132,3 +132,34 @@ LIMIT 0,3;
 #30
 SELECT MAX(tot_cred)
 FROM student;
+
+#37
+SELECT s.name
+FROM student s
+WHERE NOT EXISTS (
+  SELECT c.course_id
+  FROM course c
+  WHERE c.dept_name = 'Comp. Sci.'
+  AND c.course_id NOT IN (
+    SELECT t.course_id
+    FROM takes t
+    WHERE t.ID = s.ID
+  )
+);
+
+
+       
+#38
+/*
+SELECT *
+FROM instructor i 
+JOIN teaches t 
+ON i.ID=t.ID
+WHERE t.course_id IS NULL;
+*/
+SELECT name
+FROM instructor
+WHERE ID NOT IN (
+    SELECT ID 
+    FROM teaches);
+
