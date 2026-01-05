@@ -235,7 +235,8 @@ INSERT INTO prereq VALUES ("BIO-301","BIO-101"),
 
 
 
-/*1. List all departments.
+/*
+1. List all departments.
    
 2. Find the names of all instructors.
    
@@ -324,3 +325,4 @@ INSERT INTO prereq VALUES ("BIO-301","BIO-101"),
     
 43. List the courses with overlapping time slots.
     */
+
