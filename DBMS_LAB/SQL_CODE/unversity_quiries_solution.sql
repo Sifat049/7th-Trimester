@@ -133,6 +133,40 @@ LIMIT 0,3;
 SELECT MAX(tot_cred)
 FROM student;
 
+#31. Find the instructor teaching the most courses.
+SELECT ID
+FROM teaches
+GROUP BY ID
+ORDER BY COUNT(course_id) DESC
+LIMIT 1;
+
+
+#32. List the courses that no students are enrolled in.
+SELECT c.course_id
+FROM course c
+LEFT JOIN takes t 
+ON c.course_id = t.course_id
+WHERE t.course_id IS NULL;
+
+
+#33. Retrieve the names of students who failed at least one course.
+SELECT DISTINCT s.name
+FROM student s
+JOIN takes t ON s.ID = t.ID
+WHERE t.grade = 'F';
+
+#34. Find the building with the largest total classroom capacity.
+/*
+SELECT room_number,building,MAX(capacity)
+FROM classroom ;
+*/
+SELECT building ,capacity
+FROM classroom
+GROUP BY building
+ORDER BY SUM(capacity) DESC
+LIMIT 1;
+
+
 #35
 SELECT s.name
 FROM student s 
