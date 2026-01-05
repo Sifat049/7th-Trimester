@@ -133,6 +133,25 @@ LIMIT 0,3;
 SELECT MAX(tot_cred)
 FROM student;
 
+#35
+SELECT s.name
+FROM student s 
+JOIN advisor a 
+ON s.ID=a.s_id
+JOIN instructor i 
+ON a.i_id=i.ID 
+WHERE i.name='Einstein';
+
+#36
+SELECT c.title
+FROM course c
+JOIN takes t 
+ON c.course_id = t.course_id
+JOIN student s 
+ON t.ID = s.ID
+WHERE s.name = 'Zhang';
+
+
 #37
 SELECT s.name
 FROM student s
