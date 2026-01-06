@@ -5,7 +5,6 @@ SELECT COUNT(*) , SUM(capacity),MAX(room_number),MIN(capacity),building
 FROM classroom
 
 GROUP BY capacity;
-
 #2
 SELECT name
 FROM instructor;
