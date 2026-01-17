@@ -8,6 +8,7 @@
 ### 📊📊[Click here to open DBMS LAB]( https://github.com/Sifat049/7th-Trimester/tree/main/DBMS_LAB)
 
 
+
 **ECONOMICS**
 ### 💷 [Click here to open ECONOMICS](https://github.com/Sifat049/7th-Trimester/tree/main/ECONOMICS)
 
