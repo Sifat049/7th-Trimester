@@ -9,7 +9,6 @@
 **ECONOMICS**
 ### 💷 [Click here to open ECONOMICS](https://github.com/Sifat049/7th-Trimester/tree/main/ECONOMICS)
 
-
 **COMPUTER ARCHITECHER**
 ### 💻 [Click here to open CA](https://github.com/Sifat049/7th-Trimester/tree/main/COMPUTER%20ARCHITECTURE)
                         💀💀
